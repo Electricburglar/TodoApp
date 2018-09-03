@@ -1,0 +1,109 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.App {
+  font-family: 'Sawarabi Gothic';
+  min-height: 100%;
+  padding-bottom: 69px;
+}
+
+.Header {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.Todo {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 69px;
+}
+
+.marginTop {
+  margin-top: 7rem;
+}
+
+.BtnMargin {
+  margin-top: 1rem;
+  margin-right: 3px;
+}
+
+.Content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.IMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MyPage {
+  margin-top: 5rem;
+}
+
+.MyPage h3{
+  font-family: 'Sawarabi Gothic';
+}
+
+.Home {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  height: 100%;
+}
+
+.Home p {
+  font-family: 'Sawarabi Gothic', 'Luckiest Guy', 'Sunflower';
+}
+
+.Jumbotron {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  height: 100%;
+  margin: 0;
+  font-family: 'Sawarabi Gothic', 'Luckiest Guy', 'Sunflower';
+  overflow: hidden;
+}
+
+.Jumbotron h1 {
+  font-family: 'Sawarabi Gothic', 'Luckiest Guy', 'Sunflower';
+}
+
+.Jumbotron p {
+  font-family: 'Sawarabi Gothic', 'Luckiest Guy', 'Sunflower';
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.ant-carousel .slick-slide h3 {
+  font-family: 'Sawarabi Gothic';
+  color: black;
+}
+
+.Footer {
+  position: fixed;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10000;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .IMG {
+    width: 90%;
+  }
+}
