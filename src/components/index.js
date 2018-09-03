@@ -9,3 +9,4 @@ export { default as ChangeNickname } from './ChangeNickname';
 export { default as DeleteContainer } from './DeleteContainer';
 export { default as TodoContainer } from './TodoContainer';
 export { default as TodoHeader } from './TodoHeader';
+export { default as NoMatch } from './NoMatch';

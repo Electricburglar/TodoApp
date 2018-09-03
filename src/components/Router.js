@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Home, Login, SignUp, Todo, MyPage, ChangePW, ChangeNickname, DeleteContainer } from './index';
+import { Home, Login, SignUp, Todo, MyPage, ChangePW, ChangeNickname, DeleteContainer, NoMatch } from './index';
 
 const Router = () => (
     <Switch>
@@ -12,6 +12,7 @@ const Router = () => (
         <Route path="/changepw" component={ChangePW} />
         <Route path="/changenickname" component={ChangeNickname} />
         <Route path="/deleteuser" component={DeleteContainer} />
+        <Route path="*" component={NoMatch} />
     </Switch>
 );
 
